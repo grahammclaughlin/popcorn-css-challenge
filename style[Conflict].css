@@ -9,21 +9,10 @@ body {
 }
 header {
     background-color: #FFDBAA;
-    overflow: auto;
-    display: flex;
-}
-h1 {
-    color: #553100;
-    padding: 20px;
-    width: 450px;
-}
-nav {
-    float:right;
 }
 nav > ul {
     color: white;
     list-style-type: none;
-    display: flex;
 }
 nav > ul > li {
     background-color: #805215;
@@ -32,47 +21,31 @@ nav > ul > li {
     border-width: 1;
     padding: 10px;
     text-align: center;
-    float: right;
-    margin: 10px;
 }
 nav > ul > li > a {
     color: white;
     text-decoration: none;
 }
-
-main{
-    display: flex;
-}
 button {
     background-color: #805215;
     color: white;
-    display: block;
     border-color: black;
     border-style: solid;
     border-width: 1;
     padding: 10px;
-    margin: auto;
-    width: 90%;
+    margin: 10px;
+    width: 90%;;
     
     text-align: center;
 }
-
+h1 {
+    color: #553100;
+}
 h3 {
     text-align: center;
 }
 section {
     background-color: white;
-    width: 20%;
-    padding: 20px;
-    margin: 20px auto;
-    overflow: auto;
-    float: left;
-}
+    width: 33%;
 
-footer{
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    overflow: auto;
-    float: left;
 }
